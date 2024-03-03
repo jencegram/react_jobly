@@ -1,0 +1,57 @@
+.company-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.company-detail h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.company-detail .back-button {
+  margin-bottom: 1em;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.company-detail h2 {
+  color: turquoise;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5em;
+}
+
+.company-detail .job-card {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.company-detail .job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h3,
+.job-card p,
+.job-card button {
+  margin-bottom: 0.5em;
+}
+
+.job-card button {
+  align-self: center;
+  width: fit-content;
+}

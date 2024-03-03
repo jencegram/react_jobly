@@ -1,0 +1,22 @@
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(4, 0, 255);
+}
+
+.nav-username {
+  font-style: italic;
+}

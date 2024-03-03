@@ -1,0 +1,97 @@
+.company-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.company-list h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/* Style for the search form */
+.company-list .search-bar-container {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Style for input fields */
+.company-list .search-bar-container input[type="text"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 300px;
+}
+
+/* Style for the search button */
+.company-list .search-bar-container button {
+  background-color: turquoise;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .company-list .search-bar-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .company-list .search-bar-container input[type="text"],
+  .company-list .search-bar-container button {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+}
+
+.company-card {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company-card img {
+  max-width: 100px;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+
+.company-card h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  color: #00ccc2;
+}
+
+.company-card p {
+  color: #555;
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+
+.company-card,
+.company-list {
+  align-items: flex-start;
+}

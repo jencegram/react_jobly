@@ -1,0 +1,39 @@
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.form-container h1, .form-container h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  padding: .5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; 
+}
+
+.form-container button {
+  background-color: turquoise;
+  border: none;
+  padding: .5em 1em;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
